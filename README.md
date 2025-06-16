@@ -15,3 +15,11 @@ rojo serve
 ```
 
 For more help, check out [the Rojo documentation](https://rojo.space/docs).
+
+## Adding new outfits
+
+To add a new outfit, make a pull request.
+
+---
+
+See the Roblox game [here](https://www.roblox.com/games/120995993652481/Classic-Outfit-Ideas).
