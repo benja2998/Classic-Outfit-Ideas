@@ -14,4 +14,9 @@ function module.BuyGuestFemale(plr)
 	plr.PlayerGui.ScreenGui.GuestFemale.Visible = true
 end
 
+-- Show a GUI to buy the tiger egg outfit
+function module.BuyTigerEgg(plr)
+	plr.PlayerGui.ScreenGui.TigerEgg.Visible = true
+end
+
 return module

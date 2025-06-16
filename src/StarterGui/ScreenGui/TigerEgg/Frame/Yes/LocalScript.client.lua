@@ -6,9 +6,9 @@ local yesButton = script.Parent
 
 yesButton.Activated:Connect(function()
 	promptBulkPurchaseEvent:FireServer({
-		{ Type = Enum.MarketplaceProductType.AvatarBundle, Id = "282" },
-		{ Type = Enum.MarketplaceProductType.AvatarAsset, Id = "6281471022" },
-		{ Type = Enum.MarketplaceProductType.AvatarAsset, Id = "8404481207" },
+		{ Type = Enum.MarketplaceProductType.AvatarAsset, Id = "108150260" },
+		{ Type = Enum.MarketplaceProductType.AvatarAsset, Id = "178211531" },
+		{ Type = Enum.MarketplaceProductType.AvatarAsset, Id = "767401165" },
 	})
 	-- Close the GUI when the market prompt is closed
 	market.PromptBulkPurchaseFinished:Connect(function(player, promptPurchaseFinished)

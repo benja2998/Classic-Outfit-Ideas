@@ -18,13 +18,16 @@ for i, clickDetector in clickDetectors do
 	clickDetector.MouseClick:Connect(function(plr)
 		if plr == player then
 			local modelName = clickDetector.Parent.Name
-			
+
 			if modelName == "Guest Male" then
 				print("Guest")
 				buyModule.BuyGuest(player)
 			elseif modelName == "Guest Female" then
 				print("Guest")
 				buyModule.BuyGuestFemale(player)
+			elseif modelName == "Tiger Egg" then
+				print("Tiger Egg")
+				buyModule.BuyTigerEgg(player)
 			else
 				print("Not implemented.")
 			end

@@ -1,4 +1,4 @@
 {
   "className": "Frame",
-  "ignoreUnknownInstances": true
+  "ignoreUnknownInstances": false
 }

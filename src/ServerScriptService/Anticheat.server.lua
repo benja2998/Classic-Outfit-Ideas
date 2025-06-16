@@ -19,7 +19,9 @@ local function checkWalkspeed()
 				--print(distance)
 				-- If the player is moving too fast, kick them
 				if speedRatio > 1.6 then
-					player:Kick("Exploits detected due to unusually high speed. Speed to walkspeed ratio: " .. speedRatio)
+					player:Kick(
+						"Exploits detected due to unusually high speed. Speed to walkspeed ratio: " .. speedRatio
+					)
 				end
 			end
 		end
