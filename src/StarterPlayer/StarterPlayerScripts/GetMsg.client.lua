@@ -1,3 +1,5 @@
+-- Code taken from https://devforum.roblox.com/t/update-on-legacy-chat-deprecation-and-textchatservice-migration/3376880/129
+
 local TextChatService = game:GetService("TextChatService")
 local SystemChat: TextChannel = TextChatService:WaitForChild("TextChannels"):WaitForChild("RBXSystem")
 local ClientJoined = time()

@@ -1,3 +1,5 @@
+-- Code taken from https://devforum.roblox.com/t/update-on-legacy-chat-deprecation-and-textchatservice-migration/3376880/129
+
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 -- Lets create a remote event cause we need to connect to players
