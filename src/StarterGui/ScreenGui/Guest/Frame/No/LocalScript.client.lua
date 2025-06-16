@@ -1,3 +1,5 @@
+local essentialFunctions = require(game.ReplicatedStorage.Modules.EssentialFunctions)
+
 script.Parent.Activated:Connect(function()
-	script.Parent.Parent.Parent.Visible = not script.Parent.Parent.Parent.Visible
+	essentialFunctions.ToggleGUIElement(script.Parent.Parent.Parent)
 end)

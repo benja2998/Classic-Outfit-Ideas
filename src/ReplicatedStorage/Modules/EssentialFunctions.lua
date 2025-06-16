@@ -8,4 +8,16 @@ function module.InfiniteLoop(codeToRun)
 	end
 end
 
+-- Run a function if a condition is met
+function module.If(condition, codeToRun)
+	if condition then
+		codeToRun()
+	end
+end
+
+-- Toggle the visibility of a GUI element
+function module.ToggleGUIElement(guiElement)
+	guiElement.Visible = not guiElement.Visible
+end
+
 return module
