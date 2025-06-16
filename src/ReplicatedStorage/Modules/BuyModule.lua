@@ -4,19 +4,11 @@ This module contains functions to buy each classic outfit.
 
 local module = {}
 
--- Show a GUI to buy the guest outfit
-function module.BuyGuest(plr)
-	plr.PlayerGui.ScreenGui.Guest.Visible = true
-end
+-- Purchase the outfit
+function module.BuyOutfit(ids)
+	local event = game.ReplicatedStorage.Remotes.PromptBulkPurchaseEvent
 
--- Show a GUI to buy the guest outfit
-function module.BuyGuestFemale(plr)
-	plr.PlayerGui.ScreenGui.GuestFemale.Visible = true
-end
-
--- Show a GUI to buy the tiger egg outfit
-function module.BuyTigerEgg(plr)
-	plr.PlayerGui.ScreenGui.TigerEgg.Visible = true
+	event:FireServer(ids)
 end
 
 return module
