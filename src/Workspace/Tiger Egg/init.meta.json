@@ -1,4 +1,4 @@
 {
   "className": "Model",
-  "ignoreUnknownInstances": false
+  "ignoreUnknownInstances": true
 }

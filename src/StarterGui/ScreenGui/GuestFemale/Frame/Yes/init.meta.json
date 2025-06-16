@@ -1,4 +1,4 @@
 {
   "className": "TextButton",
-  "ignoreUnknownInstances": false
+  "ignoreUnknownInstances": true
 }
